@@ -17,21 +17,16 @@
 
 
 			<!-- Dropdown Structure -->
-			<ul id="dropdown1" class="dropdown-content">
+			<ul id="nav-menu" class="right hide-on-med-and-down">
 				<li><a href="#row">Наши истории</a></li>
 				<li><a href="#container">О нас</a></li>
 				<li><a href="#write-us">Написать нам</a></li>
 			</ul>
-    <ul class="right hide-on-med-and-down">
-
-      <!-- Dropdown Trigger -->
-      <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Навигация по сайту<i class="material-icons right">arrow_drop_down</i></a></li>
-    </ul>
-        
-      
+              
       <ul id="nav-mobile" class="side-nav">
-        <li><a href="#">Навигация</a>
+        <li><a href="#">Назад</a>
 					<ul>
+						<li class="divider"></li>
 						<li><a href="#row">Наши истории</a></li>
 						<li><a href="#container">О нас</a></li>
 						<li><a href="#write-us">Написать нам</a></li>
@@ -154,16 +149,18 @@
           <h5 id="write-us" class="white-text">Напишите нам:</h5>
           <ul>
           	<li class="input-field col s12 m12">
-          		<input placeholder="Имя" id="first_name" type="text" class="validate">
-          		<label for="first_name">Ваше имя</label>
+          		<input placeholder="Имя" id="first_name" type="text" class="validate" name="send-message">
+          		<label for="first_name" class="grey-text text-lighten-4 thin">Ваше имя</label>
         		</li>
             <li class="input-field col s12 m12">
-            	<textarea id="textarea1" class="materialize-textarea"></textarea>
-         			<label for="textarea1">Напишите Ваше послание не забыв указать координаты для связи... Потом нажмите кнопку "Отправить".</label>
+            	<textarea id="textarea1" class="materialize-textarea" name="send-message"></textarea>
+         			<label for="textarea1" class="grey-text text-lighten-4 thin">Напишите Ваше послание не забыв указать координаты для связи... Потом нажмите кнопку "Отправить".</label>
           	</li>
           </ul>
           <div class="row center">
-          	<a href="http://materializecss.com/getting-started.html" id="download-button" class="btn waves-effect waves-light teal lighten-1">Отправить</a>
+          	<button class="btn waves-effect waves-light" type="submit" name="send-message">Отправить
+    					<i class="material-icons right">send</i>
+  					</button>
         	</div>
         </div>
         
