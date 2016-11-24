@@ -2978,17 +2978,17 @@ $(document).ready(function(){
 
       $textarea.css('height', hiddenDiv.height());
     }
-
-    $(text_area_selector).each(function () {
-      var $textarea = $(this);
-      if ($textarea.val().length) {
-        textareaAutoResize($textarea);
-      }
-    });
-
-    $('body').on('keyup keydown autoresize', text_area_selector, function () {
-      textareaAutoResize($(this));
-    });
+//		here is text_area_resizer
+//    $(text_area_selector).each(function () {
+//      var $textarea = $(this);
+//      if ($textarea.val().length) {
+//        textareaAutoResize($textarea);
+//      }
+//    });
+//
+//    $('body').on('keyup keydown autoresize', text_area_selector, function () {
+//      textareaAutoResize($(this));
+//    });
 
     // File Input Path
     $(document).on('change', '.file-field input[type="file"]', function () {
