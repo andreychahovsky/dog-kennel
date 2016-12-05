@@ -2,6 +2,7 @@ ToDo
 
 - carusel? for the pictures of ours stories
 - size of phone number
+- size of background pictures with different resolutions
 
 
 changes
